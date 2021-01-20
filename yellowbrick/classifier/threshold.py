@@ -27,7 +27,7 @@ from collections import defaultdict
 from sklearn.base import clone
 from sklearn.model_selection import ShuffleSplit
 from sklearn.metrics import precision_recall_curve
-from sklearn.utils import indexable, safe_indexing
+from sklearn.utils import indexable
 try:
     from sklearn.utils import safe_indexing
 except ImportError:
