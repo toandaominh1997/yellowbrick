@@ -28,6 +28,10 @@ from sklearn.base import clone
 from sklearn.model_selection import ShuffleSplit
 from sklearn.metrics import precision_recall_curve
 from sklearn.utils import indexable, safe_indexing
+try:
+    from sklearn.utils import safe_indexing
+except ImportError:
+    from sklearn.utils import _safe_indexing as safe_indexing
 from sklearn.utils.multiclass import type_of_target
 
 from yellowbrick.base import ModelVisualizer
