@@ -33,7 +33,7 @@ with open(os.path.join(os.getcwd(), 'configs/__VERSION__')) as fp:
 
 ## Basic information
 ## Basic information
-NAME         = "yellowbrick"
+NAME         = "yellowbrickhotfix"
 DESCRIPTION  = "A suite of visual analysis and diagnostic tools for machine learning."
 AUTHOR       = "The scikit-yb developers"
 EMAIL        = "yellowbrick@googlegroups.com"
